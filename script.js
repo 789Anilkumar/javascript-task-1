@@ -1,212 +1,226 @@
-// 1
-var a = 10;
-a = 20;
-var a = 30;
-console.log(a);30
+console.log( "My name is Anilkumar and Role in jr software engineer") //output: my name is naveenkumar and role is associte software engineer
 
-// 2
-var a = 5;
-var a = 15;
-console.log(a);15
+alert( "Hi Welcome to java script") // anytime you have refes the page. show popup box ( hi welcome to js) OK 
 
-// 3
-var a = 1;
-a = 2;
-a = 3;
-console.log(a);3
+let result = confirm("Do you like coding?");
+console.log( result);   // you have refers the page show popup box ( ok or Cancel) u click ok its ture / u click cancel its fales data was collected
 
-// 4
-var a = 7;
-a = 14;
-var a = 21;
-a = 28;
-console.log(a);28
+let food = prompt("Enter your favorite food:");
+console.log( food); /// is show popup page then enter your f.food you will enter you data was colleting 
 
-// 5
-var a = 100;
-var a = 200;
-a = 300;
-console.log(a);300
-
-// 6
-var a = 9;
-console.log(a);9
-
-// 7
-var a = 11;
-a = 22;
-console.log(a);22
-
-// 8
-var a = 50;
-var a = 60;
-var a = 70;
-console.log(a);70
-
-// 9
-var a = 2;
-a = 4;
-a = 6;
-var a = 8;
-console.log(a);8
-
-// 10
-var a = 99;
-a = 88;
-console.log(a);88
+document.writeln("Good morring friends have a nice day");  //i have show to display. i can use the document.writenIn tag 
 
 
-// 11
-let b = 10;
-b = 20;
-console.log(b);20
+                                       /// Console Methods ///
 
-// 12
-let b = 5;
-b = 15;
-b = 25;
-console.log(b);25
+let a = 100;
+console.log(a);   // i will print a then a value only show 
 
-// 13
-let b = 1;
-console.log(b);1
+console.warn("warning your battery was low"); // its as a  warning message  create tag
 
-// 14
-let b = 7;
-b = 14;
-console.log(b);14
-
-// 15
-let b = 100;
-b = 200;
-b = 300;
-console.log(b);300
-
-// 16
-let b = 9;
-let b = 18;
-console.log(b);SyntaxError
-
-// 17
-let b = 50;
-b = 60;
-let b = 70;
-console.log(b);SyntaxError
-
-// 18
-let b = 2;
-b = 4;
-console.log(b);4
-
-// 19
-let b = 99;
-b = 88;
-b = 77;
-console.log(b);77
-
-// 20
-let b = 11;
-b = 22;
-console.log(b);22
+console.error("Something is misstake!");  // its as a error message create tag
 
 
-// 21
-const c = 10;
-console.log(c);10
+                                            /// Data Types ///
 
-// 22
-const c = 5;
-c = 15;
-console.log(c);TypeError
+let b = "Anilkumar"
+console.log( typeof(b)); // type of  its as string
 
+let age =  25
+console.log(typeof(age)); // type of its as number
 
-// 23
-const c = 1;
-const c = 2;
-console.log(c);SyntaxError
+let i = true; 
+console.log(typeof(i)); //  type of its as boolen  ture and fales 
 
-// 24
-const c = 7;
-console.log(c);7
+let n ;
+console.log(n); //  vaits as undefined vaule not assign
 
-// 25
-const c = 100;
-console.log(c);100
+let m = null;
+console.log(m); //  its as null
 
-// 26
-const c = 50;
-c = 60;
-console.log(c);TypeError
+                
+                                                    /// Arrays //
+    
 
-// 27
-const c = 9;
-console.log(c);9
+let fruits = ["Mango", "Apple" ,"Banana" ,"Orange", "Grapes"];
+console.log(fruits);  // its as print  the 5 fruits 
 
-// 28
-const c = 20;
-const c = 30;
-console.log(c);SyntaxError
+let box = ["Mango", "Apple", "Banana", "Orange", "Grapes"];
+console.log(box[0]);
+console.log(box[box.length - 1]); // its as been 0 mango 1 grapes print 
 
-// 29
-const c = 99;
-console.log(c);99
+let add = ["Mango", "Apple", "Banana", "Orange", "Grapes"];
+add.push("Pineapple");
+console.log( add); //  its as one furites was add in the screen 
 
-// 30
-const c = 11;
-c = 22;
-console.log(c);TypeError
+let remove = ["Mango", "Apple", "Banana", "Orange", "Grapes"];
+remove.pop();
+console.log(remove); //  one furites was remove in the screen  only 4  furit was print 
+
+let l = ["Mango", "Apple", "Banana", "Orange", "Grapes"];
+console.log(l.length);  //  how many array value show to screen 5 to print 
+
+                                       
+                                            ///Objects///
 
 
-// 31
-var a = 1;
-var a = 2;
-var a = 3;
-console.log(a);3
+let student = {
+    name: "Anilkumar",
+    age: 25,
+    course: "js",
+};
+console.log("Student object:", student); //  print to nmae, age , course  
 
-// 32
-var a = 10;
-a = 20;
-a = 30;
-var a = 40;
-console.log(a);40
+let s = {
+    name: "anilkumar",
+    age: 25,
+    course: "js" 
+};
+console.log("Student name:", s.name);  //  print only for name 
 
-// 33
-var a = 5;
-a = 15;
-console.log(a);15
+let t = {
+    name: "Anilkumar",
+    age: 25,
+    course: "js"
+};
+console.log("Student age:", t.age);    //   print only for name
 
-// 34
-var a = 100;
-var a = 200;
-var a = 300;
-a = 400;
-console.log(a);40
+let u = {
+    name: "Anilkumar",
+    age: 25,
+    course: "js"
+}
+u.college = "KNRR College";
+console.log(u);                       //   add one string collage name then print it 
 
-// 35
-var a = 7;
-console.log(a);7
+let d = {
+    name: "Anilkumar",
+    age: 21,
+    course: "Js",
+     e: ["Mango", "Apple", "Banana", "Orange", "Grapes"]
+};
 
-// 36
-let b = 3;
-b = 6;
-b = 9;
-console.log(b);9
+console.log(d.e);
 
-// 37
-let b = 12;
-let b = 24;
-console.log(b);SyntaxError
+console.log( d.e[0]);
 
-// 38
-let b = 8;
-b = 16;
-console.log(b);16
+console.log(d.e[d.e.length - 1]);  //   add to furite  then  print the mango and grapes 
 
-// 39
-const c = 2;
-console.log(c);2
+let z= {
+    name: "Anilkumar",
+    age: 21,
+    course: "AWS",
+    college: "KNRR  collage"
+};
+z.age = 25;
+console.log(z);  // resuse the age value 21 convert to  23 print it 
 
-// 40
-const c = 4;
-c = 8;
-Console.log(c);TypeError
+
+                                           ///Operators///
+
+let num1 = 30;
+let num2 = 10;
+let difference= num1 + num2;
+console.log(difference);   //  add tow value then print the add value 40
+
+let n1 = 50;
+let n2 = 20;
+let sum = n1 - n2
+console.log( sum); //   Subtraction the tow value then print the value 30 
+
+let mu1 = 50;
+let mu2  = 20;
+let product= mu1 * mu2
+console.log(product); //  mulit the tow value  then print the value 1000
+
+let div1 = 50;
+let div = 10;
+
+let quotient = num1 / num2;
+console.log( quotient); // div the tow value then print value 3
+
+let pre1= 17;
+let pre = 5;
+let remainder = pre1 % pre;
+console.log(remainder);  //  17 div the 5 then 3 times ( 5 × 3 = 15)  and 17 - 15 the print statement was 2 
+
+
+let base = 2;
+let exponent = 3;
+let mett = base ** exponent;
+console.log( mett);   //      2 power 3  2 mult in 3 time then print the value 8 
+
+
+                                                          //Increment & Decrement //
+            
+let num = 5;
+
+console.log("post-increment:", num++);  //   current value 5 and add 1 value print the 6 
+
+console.log("Using pre-increment:", ++num); //   frist add 1 value then one more add 1 value. print the 7
+
+
+let user = 5 
+let user1 = 5
+
+console.log("user++:", user++);
+console.log("user++:", user)  //  first print 5 then value 6 
+
+console.log("++user:", ++user);
+console.log("++user:", user)  //  first increase 7  then print 7 
+
+let o = 5;
+
+console.log(o);  // print 5 
+console.log( o--);  // post decrement frist print  5   then 4 output was 5 
+console.log(o);    // then print 4
+console.log( --o);   // frist3 then print 3 
+console.log( o);       //   t5hen print 3 
+ 
+let y= 5;    
+let w = y++;  
+let c = ++y;  
+
+console.log(y); 
+console.log(w); 
+console.log(c);   //  y = 5 and w= 5 then add 1 VALUE  print it 6  c = y value 7 then print it 7 
+
+                  
+                                              ///Real-Time Logic Tasks ///
+
+let h = prompt("Enter your age:");
+
+h = Number(h);
+
+if (h >= 18) {
+    console.log("YOU ARE ELIGIBLE TO VOTE");  
+} else {
+    console.log("YOU ARE NOT ELIGIBLE TO VOTE");   //   show the popup box question was enter your age u click ok its ture cencel fales  
+}
+
+let word = prompt("Enter your name:");
+console.log("Hi" + word);  //
+
+let marks = [78, 85, 92, 67, 90];
+let highestMark = Math.max(...marks);
+console.log("Highest mark:", highestMark);  //   u enter the name hi  naveen show and show to highest mark 
+
+let just = {
+    tropical: ["Mango", "Pineapple", "Banana"],
+    citrus: ["Orange", "Lemon", "Lime"],
+    berries: ["Strawberry", "Blueberry", "Raspberry"]
+};
+
+console.log( just.tropical); // 3 furite as print 
+console.log( just.citrus[0]);   //  0 print orange
+console.log( just.berries);    //    3 furite as  print 
+ 
+
+let favoriteFruits = [];
+
+for (let i = 1; i <= 3; i++) {
+    let fruit = prompt("Enter favorite fruit " + i + ":");
+    favoriteFruits.push(just);
+}
+
+console.log( favoriteFruits);    //  for loop 3 furite store in the place
