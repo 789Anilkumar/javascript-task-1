@@ -1,4 +1,4 @@
-console.log( "My name is Anilkumar and Role in jr software engineer") //output: my name is naveenkumar and role is associte software engineer
+console.log( "My name is Anilkumar and Role in jr software engineer") //output: my name is anilkumar and role is associte software engineer
 
 alert( "Hi Welcome to java script") // anytime you have refes the page. show popup box ( hi welcome to js) OK 
 
